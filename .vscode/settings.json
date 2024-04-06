@@ -1,0 +1,12 @@
+{
+  // Configure project-level settings for the official Cucumber extension in Visual Studio Code.
+  // The settings now include subdirectories under 'features' and 'steps'
+  "cucumber.features": [
+    "cypress/e2e/**/*.feature",
+    // "cypress/e2e/features/**/*.feature"
+  ],
+  "cucumber.glue": [
+    "cypress/e2e/**/*.ts",
+    // "cypress/e2e/steps/**/*.ts",
+  ]
+}
